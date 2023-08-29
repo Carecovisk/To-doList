@@ -23,7 +23,7 @@
     //Nota: lembre de usar aspas simples quando for colocar atributos
 
     $obj = new UserModel();
-    $resultado = $obj -> cadastro("Eryca Queiroz", "Odio");
+    $resultado = $obj -> cadastro("João Victor", "mesmaSenhaDeSempre");
     
     if ($resultado) {
         echo "Cadastro efetuado com sucesso! <br>";
